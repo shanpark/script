@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PROCESS="discovery"
+PROCESS=discovery
 PIDs=`ps -eaf | grep " ${PROCESS}.jar" | grep -v grep | awk '{ print $2 }'`
 
 if [ -z "${PIDs}" ]; then

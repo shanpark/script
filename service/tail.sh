@@ -1,5 +1,5 @@
 #!/bin/bash
 
-PROCESS="discovery"
+PROCESS=discovery
 
 tail -n 100 -f log/${PROCESS}.log
